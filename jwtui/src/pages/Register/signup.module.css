@@ -1,0 +1,43 @@
+/* SignupForm.module.css */
+.neumorphicModal {
+ 
+ 
+    box-shadow: 8px 8px 15px rgba(179, 179, 179, 0.5),
+                -8px -8px 15px rgba(255, 255, 255, 0.9); /* Neomorphic shadow effect */
+    
+  }
+  
+  .modalDialogRight {
+    position: absolute;
+    right: 1%; /* Align to the right */
+    top: 12.5%; /* Center vertically */
+     margin: 0;
+     
+     width: 25em;
+  }
+  
+  .modal-content {
+    border-radius: 20px; /* Make modal corners rounded */
+  }
+  
+  .modal-header {
+    border-bottom: none; /* Remove border */
+  }
+  
+  .modal-body {
+    padding: 3rem; /* Add some padding */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .mono_modelBox {
+ 
+  }
+  
+  .mono_btn {
+    margin-top: 20px; /* Add margin for spacing */
+    width: 100%; /* Full width for the button */
+  }
+  
