@@ -1,0 +1,49 @@
+.carousel-container {
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel .slide img {
+    border-radius: 10px;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .legend-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .legend-overlay h3 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .legend-overlay p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+  
+  .carousel .control-arrow {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .carousel .control-arrow:hover {
+    opacity: 1;
+    scale: 2;
+  }
+  

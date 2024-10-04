@@ -4,7 +4,7 @@ import styles from "./Navbar.module.css";
 import { CiHeart, CiSearch, CiUser } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import LoginModal from "../../pages/Login/LoginModel";
-import SignupModal from "../../pages/Register/Signup"; // Import the SignupModal
+import SignupModal from "../../pages/Register/Signup";
 
 function Navbar() {
   const [showLoginModal, setShowLoginModal] = useState(false);
@@ -13,8 +13,8 @@ function Navbar() {
   const handleShowLogin = () => setShowLoginModal(true);
   const handleCloseLogin = () => setShowLoginModal(false);
   const handleShowSignup = () => {
-    setShowLoginModal(false); // Close the login modal
-    setShowSignupModal(true); // Show the signup modal
+    setShowLoginModal(false); 
+    setShowSignupModal(true); 
   };
   const handleCloseSignup = () => setShowSignupModal(false);
 
